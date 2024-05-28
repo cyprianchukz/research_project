@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ChiPlus</title>
+</head>
+<body>
+    <h1>Collated Information</h1>
+    <div id="data-container"></div>
+
+    <script>
+        async function fetchData() {
+            try {
+                let response = await fetch('http://127.0.0.1:5000/collate-data');
+                let data = await response.json();
+                displayData(data);
+            } catch (error) {
+                console.error('Error fetching data:', error);
+            }
+        }
+
+        function displayData(data) {
+            const container = document.getElementById('data-container');
+            container.innerHTML = `<pre>${JSON.stringify(data, null, 2)}</pre>`;
+        }
+
+        fetchData();
+    </script>
+</body>
+</html>
