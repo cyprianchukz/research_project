@@ -1,8 +1,6 @@
-Portfolio project (Week 2): MVP Complete
-Group project
-Front-end
-Back-end
-Portfolio project
+ChiPlus
+A research project that proposes the development of an integrated platform designed to enhance research management and collaboration efficiency.
+by Cypee
 
 Below is a simple web application that collates information from different sources and displays it in a single interface. This project will use Python (Flask) for the backend, and JavaScript for the frontend. The sources in this case is mock APIs for simplicity.
 
