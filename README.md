@@ -2,6 +2,10 @@ ChiPlus
 A research project that proposes the development of an integrated platform designed to enhance research management and collaboration efficiency.
 by Cypee
 
+Goal: Develop a user-friendly interface for seamless report submission and collation.
+
+For the Frontend I chose to use basic HTML and JavaScript without any additional frameworks while the backend was set up with python (Flask). One of its features is to accept variability in data formats such as JSON, XML and CSV.
+
 Below is a simple web application that collates information from different sources and displays it in a single interface. This project will use Python (Flask) for the backend, and JavaScript for the frontend. The sources in this case is mock APIs for simplicity.
 
 Backend (Python - Flask)
